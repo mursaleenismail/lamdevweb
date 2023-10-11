@@ -1,4 +1,4 @@
-import { COMMON } from "@/assets/theme/theme";
+import { COMMON, theme } from "@/assets/theme/theme";
 import { Box, Toolbar } from "@mui/material";
 import { styled } from "@mui/system";
 
@@ -8,7 +8,8 @@ export const StyledToolbar = styled(Toolbar)(({}) => ({
 }));
 
 export const Search = styled("div")(({}) => ({
-  backgroundColor: COMMON.primary.contrastText,
+  backgroundColor: COMMON.common.white,
+  color: theme.palette.text.primary,
   padding: "0 15px",
   borderRadius: "6px",
   width: "40%",

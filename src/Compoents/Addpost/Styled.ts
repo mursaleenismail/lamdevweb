@@ -14,3 +14,9 @@ export const UserBox = styled(Box)(({}) => ({
   gap: "15px",
   marginBottom: "25px",
 }));
+
+export const StyledDateModal = styled(Modal)(({}) => ({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+}));

@@ -4,15 +4,7 @@ import Post from "../Post/Post";
 
 const Feed = () => {
   return (
-    <Box flex={4} sx={{ padding: 2 }}>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+    <Box flex={4} sx={{ padding: 0, marginLeft: 0, marginX: "0 20px" }}>
       <Post />
       <Post />
     </Box>
